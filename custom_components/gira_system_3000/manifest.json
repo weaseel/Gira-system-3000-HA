@@ -1,0 +1,10 @@
+
+{
+  "domain": "gira_system_3000",
+  "name": "Gira System 3000",
+  "documentation": "https://github.com/weaseel/Gira-system-3000-HA",
+  "dependencies": [],
+  "codeowners": ["@weaseel"],
+  "version": "0.0.1",
+  "requirements": ["bleak"]
+}
