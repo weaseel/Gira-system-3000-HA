@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "scan": {
+        "title": "Scanning for Devices",
+        "description": "{device_summary}"
+      },
+      "select": {
+        "title": "Select a Device",
+        "description": "Choose a device to configure."
+      }
+    },
+    "error": {
+      "no_devices_found": "No compatible devices found."
+    }
+  }
+}
