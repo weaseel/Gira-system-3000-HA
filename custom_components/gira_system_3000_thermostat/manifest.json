@@ -8,5 +8,6 @@
   "version": "0.0.1",
   "requirements": ["bleak"],
   "config_flow": true,
-  "platforms": ["climate"]
+  "platforms": ["climate"],
+  "translations": "translations"
 }

@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "scan": {
+        "title": "Wähle ein Gerät",
+        "description": "{count} Gerät(e) gefunden.",
+        "data": {
+          "device_choice": "Gerät"
+        }
+      }
+    },
+    "error": {
+      "no_devices": "Keine Geräte gefunden."
+    }
+  }
+}

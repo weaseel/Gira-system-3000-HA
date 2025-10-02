@@ -77,15 +77,16 @@ class GiraThermostatConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 
         # Add refresh option
-        device_options["refresh"] = "Refresh device list"
+        device_options["refresh"] = "Refresh"
 
         return self.async_show_form(
             step_id="scan",
             data_schema=vol.Schema({
                 vol.Required("device_choice", default="refresh"): vol.In(device_options),
             }),
+
             description_placeholders={
-                "device_summary": f"{len(self._discovered)} device(s) found."
+                "count": len(self._discovered)
             },
             last_step=False
         )
