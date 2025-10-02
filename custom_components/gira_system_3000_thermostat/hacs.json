@@ -1,0 +1,8 @@
+{
+  "name": "Gira System 3000 Thermostat",
+  "domain": "gira_system_3000_thermostat",
+  "documentation": "https://github.com/weaseel/Gira-system-3000-HA",
+  "codeowners": ["@weaseel"],
+  "requirements": [],
+  "version": "0.0.1"
+}
